@@ -33,7 +33,7 @@ INSERT INTO smoothies.public.orders (name_on_order, ingredients)
 VALUES ('{name_on_order}', '{ingredients_string.strip()}')
 """
 
-    st.write(my_insert_stmt)
+    # st.write(my_insert_stmt)
     # st.stop()
 
     time_to_insert = st.button('Submit Button')
